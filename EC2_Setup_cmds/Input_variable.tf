@@ -20,7 +20,7 @@ variable "aws_secret_key" {
 variable "ami_id" {
     description = "AMI ID for the instance"
     type        = string
-    default     = "ami-020cba7c55df1f615" # Always use the latest Amazon Linux/Ubuntu AMI ID
+    default     = "****" # Always use the latest Amazon Linux/Ubuntu AMI ID
 }
 # Instance Type
 variable "instance_type" {
